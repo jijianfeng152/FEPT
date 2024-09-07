@@ -1,0 +1,109 @@
+/* 基本样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 标题样式 */
+h1 {
+    color: #007BFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* 段落样式 */
+p {
+    margin-bottom: 15px;
+}
+
+/* 链接样式 */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 按钮样式 */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 音频和视频样式 */
+audio, video {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+/* 表单样式 */
+input[type="text"], input[type="week"], input[type="time"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 列表样式 */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 图片样式 */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* 字段集样式 */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* 版权信息样式 */
+span {
+    color: #888;
+    font-size: 0.9em;
+}
+/* 链接样式 */
+a {
+    color: #000; /* 将链接颜色改为黑色 */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
